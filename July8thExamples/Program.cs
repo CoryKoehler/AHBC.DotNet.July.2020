@@ -16,7 +16,7 @@ namespace July8thExamples
 
             var isDecimal = decimal.TryParse(userInput, out decimal userInputAsDecimal);
             var isSecondInputDecimal = decimal.TryParse(secondUserInput, out decimal secondUserInputAsDecimal);
-            
+
             if (!isDecimal || !isSecondInputDecimal)
             {
                 Console.WriteLine("Error - incorrect input - Try again");
@@ -26,6 +26,7 @@ namespace July8thExamples
             var sum = userInputAsDecimal + secondUserInputAsDecimal;
             Console.WriteLine($"{userInputAsDecimal} + {secondUserInputAsDecimal}");
             Console.WriteLine($"Sum: {sum}");
+
         }
     }
 }
