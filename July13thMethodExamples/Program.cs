@@ -10,15 +10,16 @@ namespace July13thMethodExamples
         #region First Example - remove comments to run!
         //private static void Main(string[] args)
         //{
-        //    Add(5, 5);
+        //   int darionsNumber = DarionsCoolMethod(5, 5);
         //    var accessorService = new AccessorService();
         //    var result = accessorService.DoSomething();
         //    accessorService.SomeProperty = "5";
         //}
 
-        //public static void Add(int value, int valueTwo)
+        //public static int DarionsCoolMethod(int value, int valueTwo)
         //{
         //    var addition = value + valueTwo;
+        //    return addition;
         //}
         #endregion
 
@@ -31,10 +32,35 @@ namespace July13thMethodExamples
             var inputTwo = Console.ReadLine();
 
             var exercise19 = new Exercise19();
-            var result = exercise19.SumUserInputs(int.Parse(inputOne), int.Parse(inputTwo));
+
+            var result = exercise19.SumUserInputs(inputOne, inputTwo);
+
+            Console.WriteLine("Please input a number");
+            var inputThree = Console.ReadLine();
+            Console.WriteLine("Please input another number");
+            var inputFour = Console.ReadLine();
+
+            var resultTwo = exercise19.SumUserInputs(inputThree, inputFour);
+
 
             Console.WriteLine($"Here is the sum of numbers: {result}");
         }
+        #endregion
+
+        #region Third Example - ensure all others are commented out to run!
+        //public static void Main(string[] args)
+        //{
+        //    string input = "This is Cool";
+        //    string example = DarionsStringMethod(input);
+        //    Console.WriteLine(example);
+        //}
+
+        //private static string DarionsStringMethod(string darionInput)
+        //{
+        //    string newVariable = $"Method {darionInput}";
+
+        //    return newVariable;
+        //}
         #endregion
     }
 }
