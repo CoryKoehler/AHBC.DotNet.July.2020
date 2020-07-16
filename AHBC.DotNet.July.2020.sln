@@ -5,8 +5,11 @@ VisualStudioVersion = 16.0.30223.230
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "July8thExamples", "July8thExamples\July8thExamples.csproj", "{5A29081C-A8B8-4BF5-9C4C-493FBA39D3B8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "July9ThExamples", "July9ThExamples\July9ThExamples.csproj", "{A3E71FC7-E735-4E8E-8152-FAD743C0830D}"
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "July13thMethodExamples", "July13thMethodExamples\July13thMethodExamples.csproj", "{7AD4CCFC-B5F1-4A71-93B6-D746086CFCE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "July9ThExamples", "July9ThExamples\July9ThExamples.csproj", "{A3E71FC7-E735-4E8E-8152-FAD743C0830D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "July13thMethodExamples", "July13thMethodExamples\July13thMethodExamples.csproj", "{7AD4CCFC-B5F1-4A71-93B6-D746086CFCE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "July15thStringExamples", "July15thStringExamples\July15thStringExamples.csproj", "{215942BF-B4C8-47CC-BFF2-E8D0FE86E393}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +29,10 @@ Global
 		{7AD4CCFC-B5F1-4A71-93B6-D746086CFCE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7AD4CCFC-B5F1-4A71-93B6-D746086CFCE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7AD4CCFC-B5F1-4A71-93B6-D746086CFCE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{215942BF-B4C8-47CC-BFF2-E8D0FE86E393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{215942BF-B4C8-47CC-BFF2-E8D0FE86E393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{215942BF-B4C8-47CC-BFF2-E8D0FE86E393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{215942BF-B4C8-47CC-BFF2-E8D0FE86E393}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
