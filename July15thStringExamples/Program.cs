@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
 
 namespace July15thStringExamples
 {
@@ -45,6 +47,12 @@ namespace July15thStringExamples
             {
                 Console.WriteLine("HEY IT DOES EQUAL!!");
             }
+
+            var stringBuilder = new StringBuilder("Darion is teaching");
+            Console.WriteLine(stringBuilder.ToString());
+            stringBuilder.Append("but we dont understand");
+            Console.WriteLine(stringBuilder.ToString());
+
         }
     }
 }
