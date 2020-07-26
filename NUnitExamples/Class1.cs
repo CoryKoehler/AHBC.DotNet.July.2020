@@ -10,6 +10,7 @@ namespace NUnitExamples
             //Arrange
             int actual;
             var expected = 1;
+
             //Act
             actual = 1;
 
