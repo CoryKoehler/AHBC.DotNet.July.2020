@@ -27,7 +27,7 @@ namespace July29ThExamples
             {
                 //new Wagon(),
                 new Sedan("Chevy", "Cruz", 4),
-                new Mustang("Ford", "Focus", 3)
+                new Mustang("Ford", "Focus", 3, 1920, "")
             };
 
             foreach (var vehicle in automobiles)
@@ -46,7 +46,7 @@ namespace July29ThExamples
             //var point = new Point(xPoint, yPoint);
             //Console.WriteLine($"Here is the XPoint {point.X}, and YPoint {point.Y}");
 
-            var mustang = new Mustang("Ford", "Focus", 3);
+            var mustang = new Mustang("Ford", "Focus", 3, 1920, "");
             mustang.Build();
         }
     }
