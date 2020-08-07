@@ -7,8 +7,8 @@ namespace July29ThExamples
 
         //public string Color
         //{
-        //    get {return _color; }
-        //   set { _color = value;}
+        //    get { return _color; }
+        //    set { _color = value; }
         //}
 
         protected int Age;
