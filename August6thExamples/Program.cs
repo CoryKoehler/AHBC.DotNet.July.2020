@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Linq;
+using System.Net.Security;
 using August6thExamples.Cars;
 using August6thExamples.Enums;
 
@@ -10,6 +12,9 @@ namespace August6thExamples
         {
             //UserInputForShapes();
             UserInputForAutomobiles();
+
+            //HOW TO GET a list of a enum
+            //var listofCarType = Enum.GetValues(typeof(CarType)).Cast<CarType>().ToList();
         }
 
         private static void UserInputForAutomobiles()
