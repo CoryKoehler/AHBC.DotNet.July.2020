@@ -14,13 +14,13 @@ namespace August12thExamPrep
         static int AddStarWarsCharacters(string[] starWarsCharactersArray)
         {
             //findIndex returns -1 if not found already
-            return Array.FindIndex(starWarsCharactersArray, 
+            return Array.FindIndex(starWarsCharactersArray,
                 entry => string.Equals(entry, "Yoda", StringComparison.InvariantCultureIgnoreCase));
         }
 
         static string DeathStarCombat(Dictionary<string, int> starWarsCharacters)
         {
-            var highestCombatCharacter = starWarsCharacters.OrderBy(_ => _.Value).First().Key;
+            var highestCombatCharacter = starWarsCharacters.OrderByDescending(entry => entry.Value).First().Key;
             return highestCombatCharacter;
         }
 
