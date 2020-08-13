@@ -7,7 +7,6 @@ namespace August12thRockPaperScissors
     class RPSApp
     {
         public HumanPlayer HumanPlayer;
-
         public IPlayer Oppponent;
 
         public void CreatePlayer(string name)
