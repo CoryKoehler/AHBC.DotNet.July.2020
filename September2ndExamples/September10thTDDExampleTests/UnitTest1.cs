@@ -33,8 +33,6 @@ namespace September10thTDDExampleTests
 
             //Assert
             Assert.Equal(expectedResult, result);
-
-
         }
     }
 }
