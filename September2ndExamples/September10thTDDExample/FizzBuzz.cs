@@ -5,7 +5,14 @@ namespace September10thTDDExample
     {
         public string Generate(int input)
         {
-            return "Fizz";
+            if (input % 5 == 0)
+            {
+                return "Buzz";
+            } 
+            else
+            {
+                return "Fizz";
+            }
         }
     }
 }

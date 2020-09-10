@@ -19,5 +19,22 @@ namespace September10thTDDExampleTests
             //Assert
             Assert.Equal(expectedResult, result);
         }
+
+        [Fact]
+        public void ShouldReturnBuzzForMultiplesOfFive()
+        {
+            //Arrange
+            var input = 5;
+            var expectedResult = "Buzz";
+            FizzBuzz fizzBuzz = new FizzBuzz();
+
+            //Act
+            string result = fizzBuzz.Generate(input);
+
+            //Assert
+            Assert.Equal(expectedResult, result);
+
+
+        }
     }
 }
