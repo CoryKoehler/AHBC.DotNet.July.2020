@@ -5,18 +5,20 @@ namespace September10thTDDExample
     {
         public string Generate(int input)
         {
+            var result = string.Empty;
             if(input % 5 == 0 && input % 3 == 0)
             {
-                return "FizzBuzz";
+                result = "FizzBuzz";
             }
             else if(input % 3 == 0)
             {
-                return "Fizz";
+                result = "Fizz";
             }
             else
             {
-                return "Buzz";
+                result = "Buzz";
             }
+            return result;
         }
     }
 }
