@@ -5,3 +5,19 @@
 body {
     background-color: lightblue;
 }
+
+/* p {
+    font-family: somecursivefontthatwhatitscalled;
+}
+
+#mostSpecific {
+  font-size: small;
+}
+
+.leastSpecific {
+    font-size: large;
+}
+
+.Circle, p {
+    //some rules here
+} */
