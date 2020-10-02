@@ -65,6 +65,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "October", "October", "{A3E4
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October1stCalculatorWebApp", "October1stCalculatorWebApp\October1stCalculatorWebApp.csproj", "{4ACC49F3-BBFC-48BD-A691-A05249C9F595}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October1stAspNetCalculatorStep1", "October1stAspNetCalculatorStep1\October1stAspNetCalculatorStep1.csproj", "{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -179,6 +181,10 @@ Global
 		{4ACC49F3-BBFC-48BD-A691-A05249C9F595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4ACC49F3-BBFC-48BD-A691-A05249C9F595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4ACC49F3-BBFC-48BD-A691-A05249C9F595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -211,6 +217,7 @@ Global
 		{A04105B3-6B1D-4F8D-9FCF-40A9F774F60E} = {C0ABCE8C-09F9-4DE8-B1DE-2BBB9C3907AB}
 		{2FD47FDB-708C-436A-B5D1-520AFE77242F} = {C0ABCE8C-09F9-4DE8-B1DE-2BBB9C3907AB}
 		{4ACC49F3-BBFC-48BD-A691-A05249C9F595} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
+		{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC0E220A-7F05-4390-AD0F-86CE05A5E8DA}
