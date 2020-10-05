@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using October1stCalculatorWebApp.Middleware;
 using October1stCalculatorWebApp.Services;
 
 namespace October1stCalculatorWebApp
@@ -44,6 +45,8 @@ namespace October1stCalculatorWebApp
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            app.UseMiddleware<ExceptionHandlingMiddleware>();
 
             app.UseAuthorization();
 
