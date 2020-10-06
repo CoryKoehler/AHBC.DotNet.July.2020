@@ -54,7 +54,7 @@ namespace October1stAspNetCalculatorStep1
                 
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Calculator}/{action=Calculator}/{id?}");
+                    pattern: "{controller=Calculator}/{action=Index}/{id?}");
             });
         }
     }

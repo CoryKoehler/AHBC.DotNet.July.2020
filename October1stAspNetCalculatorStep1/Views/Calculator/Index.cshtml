@@ -11,14 +11,13 @@
     <h1 class="display-4">Welcome to AHBC .Net Calculator</h1>
 
     <div class="form-group">
-        <form asp-action="Calculate">
+        <form asp-action="CalculateResult">
             <label>Input One</label>
             <input asp-for="@Model.InputOne" />
             <label>Action</label>
             <input asp-for="@Model.Action" />
-            <label>Input Two</label>
-            <input asp-for="@Model.InputTwo" />
-
+            <label>Action</label>
+            <select asp-for="@Model.Action" asp-items="Html.GetEnumSelectList<CalculatorType>()"></select>
             <input type="submit" value="Calculate" class="btn btn-primary" />
         </form>
     </div>
