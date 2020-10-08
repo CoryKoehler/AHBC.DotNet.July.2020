@@ -1,0 +1,14 @@
+﻿@model string
+<h1>Guid on page: @Model</h1>
+<partial name="_Singleton" />
+
+<h3>Singelton : Every Subsequent Request uses the same Instance</h3>
+
+<p>
+    What is this lifecycle useful for ?
+</p>
+<ul>
+    <li>Caching Services</li>
+    <li>Global Configuration(logger)</li>
+    <li>Persisting state that's useful for the runtime of the application</li>
+</ul>

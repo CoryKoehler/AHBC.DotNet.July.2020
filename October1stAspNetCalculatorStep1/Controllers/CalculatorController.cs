@@ -10,8 +10,13 @@ namespace October1stAspNetCalculatorStep1.Controllers
 {
     public class CalculatorController : Controller
     {
-        //this should be index but cory wanted to show how to create custom stuff
-        //check out the startup end point section to see how this works        
+        private readonly ICalculationService _calculationService;
+
+        public CalculatorController(ICalculationService calculationService)
+        {
+            _calculationService = calculationService;
+        }
+                
         public IActionResult Index()
         {
             return View();
@@ -19,9 +24,13 @@ namespace October1stAspNetCalculatorStep1.Controllers
 
         public IActionResult CalculateResult(CalculatorViewModel model)
         {
-            var calcService = new CalculationService();
-            var calculatorViewModel = calcService.Calculate(model);
-            var viewResult = calculatorViewModel.Result;
+
+            var calculatorViewModel = _calculationService.Calculate(model);
+            
+            var viewResultModel = new ResultViewModel
+            {
+                Result = calculatorViewModel.Result
+            };
 
             //do some work of validating the user input
             //do some work of actually calculating
@@ -31,7 +40,7 @@ namespace October1stAspNetCalculatorStep1.Controllers
             //display it in another page?
             //do we need another model?
             //do we need another view??
-            return View(viewResult);
+            return View(viewResultModel);
         }
     }
 }

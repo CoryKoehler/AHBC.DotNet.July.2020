@@ -3,7 +3,7 @@ using October1stAspNetCalculatorStep1.Models;
 
 namespace October1stAspNetCalculatorStep1.Services
 {
-    public class CalculationService
+    public class CalculationService : ICalculationService
     {
         public CalculatorViewModel Calculate(CalculatorViewModel model)
         {

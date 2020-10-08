@@ -3,6 +3,6 @@ namespace October1stAspNetCalculatorStep1.Models
 {
     public class ResultViewModel
     {
-        public int Result { get; set; }
+        public string Result { get; set; }
     }
 }

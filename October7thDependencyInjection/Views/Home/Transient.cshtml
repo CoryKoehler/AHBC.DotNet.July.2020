@@ -1,0 +1,16 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@model string
+<h1>Guid on page: @Model</h1>
+<partial name="_Transient" />
+
+<h3>Transient : It is created each time they're requested from the service container.</h3>
+
+<p>
+    What is the lifecycle useful for?
+</p>
+<ul>
+    
+    <li>When you need a fresh instance of an object every single time</li>
+</ul>
