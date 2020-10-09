@@ -63,13 +63,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "September10thTDDExampleTest
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "October", "October", "{A3E477C3-DEFD-4D37-90A6-DC419968304B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October1stCalculatorWebApp", "October1stCalculatorWebApp\October1stCalculatorWebApp.csproj", "{4ACC49F3-BBFC-48BD-A691-A05249C9F595}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "October1stCalculatorWebApp", "October1stCalculatorWebApp\October1stCalculatorWebApp.csproj", "{4ACC49F3-BBFC-48BD-A691-A05249C9F595}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October1stAspNetCalculatorStep1", "October1stAspNetCalculatorStep1\October1stAspNetCalculatorStep1.csproj", "{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "October1stAspNetCalculatorStep1", "October1stAspNetCalculatorStep1\October1stAspNetCalculatorStep1.csproj", "{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October7thDependencyInjection", "October7thDependencyInjection\October7thDependencyInjection.csproj", "{36C23FB5-5AFB-437E-8D93-D3CCCCA88AF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "October7thDependencyInjection", "October7thDependencyInjection\October7thDependencyInjection.csproj", "{36C23FB5-5AFB-437E-8D93-D3CCCCA88AF1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October7thMiddleware", "October7thMiddleware\October7thMiddleware.csproj", "{1C1932C9-7198-4B40-9408-9B95B29C8568}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "October7thMiddleware", "October7thMiddleware\October7thMiddleware.csproj", "{1C1932C9-7198-4B40-9408-9B95B29C8568}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October8thModelValidation", "October8thModelValidation\October8thModelValidation.csproj", "{958E179C-5971-4ED5-AF31-E31255E60B2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October8thStateManagement", "October8thStateManagement\October8thStateManagement.csproj", "{312F1144-8CFD-4F8D-9FB5-B4EE9506C775}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -197,6 +201,14 @@ Global
 		{1C1932C9-7198-4B40-9408-9B95B29C8568}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C1932C9-7198-4B40-9408-9B95B29C8568}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C1932C9-7198-4B40-9408-9B95B29C8568}.Release|Any CPU.Build.0 = Release|Any CPU
+		{958E179C-5971-4ED5-AF31-E31255E60B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{958E179C-5971-4ED5-AF31-E31255E60B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{958E179C-5971-4ED5-AF31-E31255E60B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{958E179C-5971-4ED5-AF31-E31255E60B2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{312F1144-8CFD-4F8D-9FB5-B4EE9506C775}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{312F1144-8CFD-4F8D-9FB5-B4EE9506C775}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{312F1144-8CFD-4F8D-9FB5-B4EE9506C775}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{312F1144-8CFD-4F8D-9FB5-B4EE9506C775}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -232,6 +244,8 @@ Global
 		{D55F37F7-3F1E-4B92-93D2-C07C7C15BB09} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
 		{36C23FB5-5AFB-437E-8D93-D3CCCCA88AF1} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
 		{1C1932C9-7198-4B40-9408-9B95B29C8568} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
+		{958E179C-5971-4ED5-AF31-E31255E60B2F} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
+		{312F1144-8CFD-4F8D-9FB5-B4EE9506C775} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC0E220A-7F05-4390-AD0F-86CE05A5E8DA}
