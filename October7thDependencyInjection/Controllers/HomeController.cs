@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using October7thDependencyInjection.Models;
@@ -15,14 +16,17 @@ namespace October7thDependencyInjection.Controllers
         private readonly ISingletonService _singletonService;
         private readonly IScopedService _scopedService;
         private readonly ITransientService _transientService;
+        private readonly IHttpContextAccessor _httpContextAccessor;
 
 
-        public HomeController(ISingletonService singletonService, IScopedService scopedService, ITransientService transientService)
+        public HomeController(IHttpContextAccessor httpContextAccessor, ISingletonService singletonService, IScopedService scopedService, ITransientService transientService)
         {
+            _httpContextAccessor = httpContextAccessor;
             _singletonService = singletonService;
             _scopedService = scopedService;
             _transientService = transientService;
         }
+
         //singleton
         public IActionResult Index()
         {

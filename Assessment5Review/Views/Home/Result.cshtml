@@ -1,0 +1,22 @@
+﻿
+<div>
+    <ul>
+        @if (ViewData.TryGetValue("CanVote", out object canVote))
+        {
+            <li>@canVote</li>
+        }
+        @if (ViewData.TryGetValue("CanDrink", out object canDrink))
+        {
+            <li>@canDrink</li>
+        }
+        @if (ViewData.TryGetValue("TooYoung", out object tooYoung))
+        {
+            <li>@tooYoung</li>
+        }
+        @if (ViewData.TryGetValue("CanRent", out object canRent))
+        {
+            <li>@canRent</li>
+        }
+
+    </ul>
+</div>

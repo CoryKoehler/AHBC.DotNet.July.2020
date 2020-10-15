@@ -1,0 +1,20 @@
+﻿@{
+    string userName = ViewBag.UserName;
+    int? age = ViewBag.Age; 
+}
+
+<div>
+    <form asp-action="Result">
+        <div class="form-group">
+            <label>User Name</label>
+            <input asp-for="@userName" />
+            <label>Age</label>
+            <input asp-for="@age"/>
+        </div>
+
+        <div>
+            <input type="submit" value="Submit" class="btn btn-primary"/>
+        </div>
+
+    </form>
+</div>

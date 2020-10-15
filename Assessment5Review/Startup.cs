@@ -8,9 +8,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using October7thDependencyInjection.Services;
 
-namespace October7thDependencyInjection
+namespace Assessment5Review
 {
     public class Startup
     {
@@ -24,12 +23,7 @@ namespace October7thDependencyInjection
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            
-            services.AddTransient<ITransientService,TransientService>();
-            services.AddScoped<IScopedService, ScopedService>();
-            services.AddSingleton<ISingletonService, SingletonService>();
             services.AddControllersWithViews();
-            services.AddHttpContextAccessor();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
