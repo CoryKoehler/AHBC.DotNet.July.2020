@@ -81,6 +81,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "October15thEFCore", "Octobe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October21stEFCoreCodeFirst", "October21stEFCoreCodeFirst\October21stEFCoreCodeFirst.csproj", "{4B5AF480-A1B7-4583-888E-D4412449B44E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "October22ndEFCoreCodeFirst", "October22ndEFCoreCodeFirst\October22ndEFCoreCodeFirst.csproj", "{C832CC7A-32ED-446A-80A3-5CE9C7C2DEFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -227,6 +229,10 @@ Global
 		{4B5AF480-A1B7-4583-888E-D4412449B44E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B5AF480-A1B7-4583-888E-D4412449B44E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B5AF480-A1B7-4583-888E-D4412449B44E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C832CC7A-32ED-446A-80A3-5CE9C7C2DEFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C832CC7A-32ED-446A-80A3-5CE9C7C2DEFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C832CC7A-32ED-446A-80A3-5CE9C7C2DEFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C832CC7A-32ED-446A-80A3-5CE9C7C2DEFB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -267,6 +273,7 @@ Global
 		{3330F2AF-A333-4974-B196-B5D5AC060726} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
 		{C80C4D06-C698-4290-8C00-344E09484EAF} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
 		{4B5AF480-A1B7-4583-888E-D4412449B44E} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
+		{C832CC7A-32ED-446A-80A3-5CE9C7C2DEFB} = {A3E477C3-DEFD-4D37-90A6-DC419968304B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC0E220A-7F05-4390-AD0F-86CE05A5E8DA}
