@@ -21,7 +21,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DataLayer\Context\" />
+    <Folder Include="PostmanFiles\" />
   </ItemGroup>
+
 
 </Project>
