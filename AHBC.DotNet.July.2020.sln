@@ -51,15 +51,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "August13thExamples", "Augus
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "September", "September", "{C0ABCE8C-09F9-4DE8-B1DE-2BBB9C3907AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "September2ndExamples", "September2ndExamples\September2ndExamples.csproj", "{F42C7EF6-FD0E-4D1A-BDA3-8FBB9BEC6EDC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "September2ndExamples", "September2ndExamples\September2ndExamples.csproj", "{F42C7EF6-FD0E-4D1A-BDA3-8FBB9BEC6EDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "September9thMockAssement3", "September2ndExamples\September9thMockAssement3\September9thMockAssement3.csproj", "{E0C08410-56B4-4DA8-B104-9B343EA0700C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "September9thMockAssement3", "September2ndExamples\September9thMockAssement3\September9thMockAssement3.csproj", "{E0C08410-56B4-4DA8-B104-9B343EA0700C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "September9thAssessment3Review", "September2ndExamples\September9thAssessment3Review\September9thAssessment3Review.csproj", "{B67C31C1-F6D3-4504-9690-7DB7087EC702}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "September9thAssessment3Review", "September2ndExamples\September9thAssessment3Review\September9thAssessment3Review.csproj", "{B67C31C1-F6D3-4504-9690-7DB7087EC702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "September10thTDDExample", "September2ndExamples\September10thTDDExample\September10thTDDExample.csproj", "{A04105B3-6B1D-4F8D-9FCF-40A9F774F60E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "September10thTDDExample", "September2ndExamples\September10thTDDExample\September10thTDDExample.csproj", "{A04105B3-6B1D-4F8D-9FCF-40A9F774F60E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "September10thTDDExampleTests", "September2ndExamples\September10thTDDExampleTests\September10thTDDExampleTests.csproj", "{2FD47FDB-708C-436A-B5D1-520AFE77242F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "September10thTDDExampleTests", "September2ndExamples\September10thTDDExampleTests\September10thTDDExampleTests.csproj", "{2FD47FDB-708C-436A-B5D1-520AFE77242F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "October", "October", "{A3E477C3-DEFD-4D37-90A6-DC419968304B}"
 EndProject
@@ -99,7 +99,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "November11thJsonSerializati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Novemeber11thConsumingExternalApi", "Novemeber11thConsumingExternalApi\Novemeber11thConsumingExternalApi.csproj", "{88DDE665-805E-4150-9536-010710556982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "November18thAzureAppConfigurationApi", "November18thAzureAppConfigurationApi\November18thAzureAppConfigurationApi.csproj", "{799F3ABC-A7A2-4542-A841-4F6B89BE2DBA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "November18thAzureAppConfigurationApi", "November18thAzureAppConfigurationApi\November18thAzureAppConfigurationApi.csproj", "{799F3ABC-A7A2-4542-A841-4F6B89BE2DBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MockAssessment7", "MockAssessment7\MockAssessment7.csproj", "{DC89B042-FDB5-4BA8-9156-563A0AF948D6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -283,6 +285,10 @@ Global
 		{799F3ABC-A7A2-4542-A841-4F6B89BE2DBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{799F3ABC-A7A2-4542-A841-4F6B89BE2DBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{799F3ABC-A7A2-4542-A841-4F6B89BE2DBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC89B042-FDB5-4BA8-9156-563A0AF948D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC89B042-FDB5-4BA8-9156-563A0AF948D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC89B042-FDB5-4BA8-9156-563A0AF948D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC89B042-FDB5-4BA8-9156-563A0AF948D6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -332,6 +338,7 @@ Global
 		{47F358CC-09C1-4AE9-9FA9-5F752CEE3364} = {DA4B9837-8A0D-4C47-94E1-C9D50B11815C}
 		{88DDE665-805E-4150-9536-010710556982} = {DA4B9837-8A0D-4C47-94E1-C9D50B11815C}
 		{799F3ABC-A7A2-4542-A841-4F6B89BE2DBA} = {DA4B9837-8A0D-4C47-94E1-C9D50B11815C}
+		{DC89B042-FDB5-4BA8-9156-563A0AF948D6} = {DA4B9837-8A0D-4C47-94E1-C9D50B11815C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {DC0E220A-7F05-4390-AD0F-86CE05A5E8DA}

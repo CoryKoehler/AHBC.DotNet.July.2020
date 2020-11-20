@@ -36,6 +36,7 @@ namespace Novemeber11thConsumingExternalApi.Service
             var response = await _httpClient.GetAsync($"song/search?query={query}");
 
             var jsonString = await response.Content.ReadAsStringAsync();
+            //await response.Content.ReadAsAsync<SearchlyResponse>();
 
             var songlyResponse = JsonSerializer.Deserialize<SearchlyResponse>(jsonString, _options);
 

@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Search Result Page";
+}
+@model Donut
+@{
+}
+
+<span>Name: @Model.Name</span>
+<span>Calories: @Model.Calories</span>
+@if (!string.IsNullOrEmpty(Model.PhotoURL))
+{
+    <img src="@Model.PhotoURL" width="500" height="500" />
+}
+
+@if (Model.Extras.Count() > 0)
+{
+    @foreach (var extra in Model.Extras)
+    {
+        <span>Extra: @extra</span>
+    }
+}

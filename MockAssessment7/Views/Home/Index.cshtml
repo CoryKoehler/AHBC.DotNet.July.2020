@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    @* work around way *@
+    @*@using (@Html.BeginForm("Search", "Home", FormMethod.Get))
+    {
+        <label>Search Query</label>
+        <input id="id" name="id" type="text" />
+
+        <input id="Submit" type="submit" value="Create" />
+    }*@
+
+    <form asp-controller="Home" asp-action="Search" method="get">
+        <input name="id" type="number" />
+        <input type="submit" value="Submit">
+    </form>
+
+</div>
